@@ -1,0 +1,15 @@
+  .open__modal {
+  z-index: 1003;
+  display: block;
+  opacity: 1;
+  top: 10%;
+  transform: scaleX(1) scaleY(1);
+}
+
+.close__modal {
+  z-index: 1003;
+  display: none;
+  opacity: 0;
+  top: 4%;
+  transform: scaleX(0.8) scaleY(0.8);
+}

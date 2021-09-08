@@ -1,0 +1,258 @@
+/*   Header  */
+
+.header {
+  background: url('../../assets/img/headerBg-2.png') , center no-repeat ;
+  /* background-position: left, right; */
+  background-size: cover;
+  top: 0;
+  left: 0;
+  padding: 20px 0 40px;
+  color: #fff;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header__message {
+  text-align: center;
+}
+
+.header__top {
+  display: flex;
+  padding: 25px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__title {
+  font-family: 'Ruslan Display';
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+.line {
+  width: 100%;
+  border: 1px solid #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: inset 0px 1px 81px #BABABA;
+}
+
+
+.header__content {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header__video {
+  width: 400px;
+  height: 250px;
+  margin-right: 70px;
+  margin-right: 20px;
+} 
+
+.header__text {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+
+  /* Main  */
+
+
+.mainCard__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+.mainCard__item {
+  width: 46%;
+  text-decoration: none;
+  margin: 20px 10px;
+  height: 350px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(68, 68, 68);
+}
+
+.mainCard__item:hover {
+  opacity: 0.8;
+} 
+
+.card__1 {
+  background: url('../../assets/img/card-1.jpg') , center no-repeat ;
+  background-position: top, center, bottom;
+  background-size: cover;
+}
+.card__2 {
+  background: url('../../assets/img/card-2.jpg') , center no-repeat ;
+  background-position: top, center, bottom;
+  background-size: cover;
+}
+.card__3 {
+  background: url('../../assets/img/card-3.jpg') , center no-repeat ;
+  background-position: top, center, bottom;
+  background-size: cover;
+  width: 100%;
+}
+.card__4 {
+  background: url('../../assets/img/card-4.jpg') , center no-repeat ;
+  background-position: top, center, bottom;
+  background-size: cover;
+}
+.card__5 {
+  background: url('../../assets/img/card-5.jpg') , center no-repeat ;
+  background-position: top, center, bottom;
+  background-size: cover;
+}
+
+.mainCard__title {
+  background: rgba(0, 0, 0, 0.78);
+  width: 100%;
+  padding: 15px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+} 
+
+
+.img__wrapper {
+  margin-top: 15px;
+  display: inline-block;
+  align-items: center;
+}
+
+
+/* loaction */
+
+.location {
+  background: url('../../assets/img/lacationMap.jpg');
+  background-repeat: no-repeat;
+  padding: 50px 20px;
+  background-position: top, center, bottom;
+  width: 100%;
+}
+
+.location__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location__left {
+  width: 65%;
+} 
+
+.location__item {
+  background: rgba(119, 131, 86, 0.5);
+  margin-right: 20px ;
+}
+
+.location__title {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.location__title:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.location__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location__item {
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.location__item h4 {
+  font-size: 14px;
+}
+
+.location__item p {
+  font-size: 14px;
+}
+
+.location__right {
+  width: 33%; 
+  text-align: center;
+} 
+
+.location__icon {
+  height: 180px;
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .header__content {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .header__video {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .header__text {
+    font-size: 20px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__text {
+    font-size: 18px;
+    justify-content: center;
+  }
+
+  .location__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .location__left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  } 
+
+  .location__right {
+    width: 100%;
+  } 
+
+
+  .location__icon {
+    height: 100px;
+  }
+}
+
+@media (max-width: 535px) {
+  .mainCard__item {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+

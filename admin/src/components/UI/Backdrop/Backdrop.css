@@ -1,0 +1,25 @@
+.open__backdrop {
+  z-index: 102;
+  display: block;
+  opacity: 0.5;
+}
+
+.modal-overlay {
+  position: fixed;
+    top: -25%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 125%;
+    width: 100%;
+    background: #000;
+    will-change: opacity;
+}
+
+.close__backdrop {
+    z-index: 103;
+    display: none;
+    opacity: 0;
+    top: 4%;
+    transform: scaleX(0.8) scaleY(0.8);
+}

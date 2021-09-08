@@ -1,0 +1,27 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: burlywood;
+  width: initial;
+  margin: 0 auto;
+  border: 1px solid #85745f;
+  box-shadow: 1px 1px 1px  rgb(133, 116, 95);
+  padding: 20px;
+  top: 30%;
+  left: 30%;
+  box-sizing: border-box;
+  transform: all 0.5s easy-out;
+  max-width: 800px;
+}
+
+.modal__inner {
+  display: flex;
+}
+
+.img__modal {
+  height: 300px;
+}
+
+.title__modal {
+  margin-bottom: 20px;
+}

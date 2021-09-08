@@ -1,0 +1,30 @@
+.Header {
+  background: url('../../assets/img/headerBg-2.png') , center no-repeat ;
+  /* background-position: left, right; */
+  background-size: cover;
+  top: 0;
+  left: 0;
+  padding: 25px 0 ;
+  color: #fff;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Header__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Header__number {
+  width: 110px;
+}
+
+.logo__img {
+  text-align: center;
+}
+
+.Header__message {
+  width: 110px;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+.nav .active {
+  border-bottom: 4px solid rgb(132, 197, 223);
+  box-shadow: 0px 8px 8px -10px rgba(132, 197, 223, 0.644) inset;
+  /* box-shadow: 0px 5px 10px 2px rgba(132, 197, 223, 0.404) inset; стеклянный */
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}

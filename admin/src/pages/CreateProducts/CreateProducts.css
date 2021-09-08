@@ -1,0 +1,75 @@
+.forms__section {
+  padding: 50px 0px 140px;
+}
+
+
+.addBeer__title {
+  margin: 25px 0;
+}
+
+
+
+.form__inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form__left {
+  width: 50%;
+  margin-right: 70px;
+}
+
+.form__right {
+  width: 50%;
+}
+
+.form__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form__item p {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.form__item input {
+  width: 70%;
+  height: 28px;
+}
+
+.form__right textarea {
+  width: 80%;
+  margin-bottom: 10px;
+  height: 80px;
+}
+
+.form__btn {
+  margin: 20px 50px 0 0;
+  display: block;
+  float: right;
+}
+
+
+.edit__btn {
+  margin-top: 50px;
+}
+
+
+@media (max-width: 840px) {
+  .form__inner {
+    flex-wrap: wrap;
+  }
+  .form__left {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  
+  .form__right {
+    width: 100%;
+  }
+}

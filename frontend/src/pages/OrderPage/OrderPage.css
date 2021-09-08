@@ -1,0 +1,82 @@
+.applicationPage {
+  padding: 30px 0 100px;
+  text-align: center;
+}
+
+.applicationPage__subtitle {
+  margin-bottom: 20px;
+}
+
+.application__waring {
+  margin-top: 10px;
+  border: 1px dashed rgb(138, 138, 0);
+  display: inline-block;
+  border-radius: 10px;
+  padding: 8px;
+  color: rgb(53, 53, 53);
+}
+
+/* Products info */
+.application__products {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+
+.application__products__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.application__products__el {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 20px;
+}
+
+
+/* form */
+.application__client {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.application__form {
+  text-align: center;
+}
+
+.application__form__item {
+  margin: 20px;
+}
+
+.application__form__item h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #575757;
+  margin-bottom: 8px;
+}
+
+.application__form__item input {
+  width: 100%;
+  max-width: 550px;
+	font-size: 16px;
+	padding: 10px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}
+
+.application__form button{
+  border-radius: 10px;
+  border: none;
+  background: #DFE165;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 20px;
+  min-width: 200px;
+  color: #000;
+  text-decoration: none;
+}
